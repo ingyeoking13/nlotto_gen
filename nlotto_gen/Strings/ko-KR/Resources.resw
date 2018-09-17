@@ -118,71 +118,71 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AppDisplayName" xml:space="preserve">
-    <value>nlotto_gen</value>
+    <value>로또 번호 생성기</value>
     <comment>Application display name</comment>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>nlotto_gen</value>
+    <value>로또 번호 생성기</value>
     <comment>Application description</comment>
   </data>
   <data name="Shell_Main.Content" xml:space="preserve">
-    <value>Main</value>
+    <value>번호 생성하기</value>
     <comment>Navigation view item name for Main</comment>
   </data>
   <data name="WebView_FailedMessage.Text" xml:space="preserve">
-    <value>Page failed to load. Check connection and retry.</value>
+    <value>페이지 열기를 실패했습니다. 연결상태를 확인하고 다시 시도해보세요.</value>
     <comment>Load failure message for WebView</comment>
   </data>
   <data name="WebView_Loading.Text" xml:space="preserve">
-    <value>Loading...</value>
+    <value>로딩중...</value>
     <comment>Loading message for WebView</comment>
   </data>
   <data name="WebView_Retry.Content" xml:space="preserve">
-    <value>retry</value>
+    <value>다시 시도하기</value>
     <comment>Retry button for WebView</comment>
   </data>
   <data name="WebView_BrowserBackButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Back</value>
+    <value>앞으로</value>
     <comment>WebView back button automation name property for WebView</comment>
   </data>
   <data name="WebView_BrowserBackButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>Back</value>
+    <value>앞으로</value>
     <comment>Back button automation tooltip property for WebView</comment>
   </data>
   <data name="WebView_BrowserForwardButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Forward</value>
+    <value>뒤로</value>
     <comment>Forward button automation name property for WebView</comment>
   </data>
   <data name="WebView_BrowserForwardButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>Forward</value>
+    <value>뒤로</value>
     <comment>Forward button automation tooltip property for WebView</comment>
   </data>
   <data name="WebView_RefreshBrowserButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Refresh</value>
+    <value>새로고침</value>
     <comment>Refresh button automation name property for WebView</comment>
   </data>
   <data name="WebView_RefreshBrowserButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>Refresh</value>
+    <value>새로고침</value>
     <comment>Refresh button automation tooltip property for WebView</comment>
   </data>
   <data name="WebView_OpenInBrowserButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Open in browser</value>
+    <value>브라우저로 열기</value>
     <comment>Open in browser button automation name property for WebView</comment>
   </data>
   <data name="WebView_OpenInBrowserButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>Open in browser</value>
+    <value>브라우저로 열기</value>
     <comment>Open in browser button automation tooltip property for WebView</comment>
   </data>
   <data name="Shell_WebView.Content" xml:space="preserve">
-    <value>WebView</value>
+    <value>나눔로또 웹사이트방문</value>
     <comment>Navigation view item name for WebView</comment>
   </data>
   <data name="Main_Button.Content" xml:space="preserve">
-    <value>Generate!</value>
-    <comment>generate random numbers</comment>
+    <value>랜덤 생성!</value>
+    <comment>랜덤숫자를 생성합니다</comment>
   </data>
   <data name="Help_cpbutton.Content" xml:space="preserve">
-    <value>To Clipboard</value>
+    <value>클립보드로 복사</value>
   </data>
   <data name="Help_string.Text" xml:space="preserve">
     <value>이 앱의 목적은 로또 번호를 생성하는 것입니다. 
@@ -193,6 +193,6 @@
 메일주소는 gaelim@naver.com 입니다.</value>
   </data>
   <data name="Shell_Help.Content" xml:space="preserve">
-    <value>Information</value>
+    <value>정보</value>
   </data>
 </root>

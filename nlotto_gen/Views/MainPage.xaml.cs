@@ -12,6 +12,7 @@ namespace nlotto_gen.Views
 
         public MainPage()
         {
+            DataContext = ViewModel;
             InitializeComponent();
         }
     }

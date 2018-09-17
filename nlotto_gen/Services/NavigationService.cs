@@ -10,9 +10,7 @@ namespace nlotto_gen.Services
     public static class NavigationService
     {
         public static event NavigatedEventHandler Navigated;
-
         public static event NavigationFailedEventHandler NavigationFailed;
-
         private static Frame _frame;
         private static object _lastParamUsed;
 

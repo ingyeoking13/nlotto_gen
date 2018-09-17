@@ -11,7 +11,7 @@ namespace nlotto_gen.ViewModels
     public class WebViewViewModel : Observable
     {
         // TODO WTS: Set the URI of the page to show by default
-        private const string DefaultUrl = "https://developer.microsoft.com/en-us/windows/apps";
+        private const string DefaultUrl = "http://m.nlotto.co.kr/common.do?method=main";
 
         private Uri _source;
 
@@ -22,7 +22,6 @@ namespace nlotto_gen.ViewModels
         }
 
         private bool _isLoading;
-
         public bool IsLoading
         {
             get
