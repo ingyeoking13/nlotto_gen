@@ -26,6 +26,7 @@
             <NavigationViewItem x:Uid="Shell_Main" Icon="Document" helpers:NavHelper.NavigateTo="views:MainPage" />
             <NavigationViewItem x:Uid="Shell_WebView" Icon="Globe" helpers:NavHelper.NavigateTo="views:WebViewPage" />
             <NavigationViewItem x:Uid="Shell_Help" Icon="Help" helpers:NavHelper.NavigateTo="views:HelpPage" />
+            <NavigationViewItem x:Uid="Shell_Data" Icon="Document" helpers:NavHelper.NavigateTo="views:dataPage" />
         </NavigationView.MenuItems>
         <NavigationView.HeaderTemplate>
             <DataTemplate>

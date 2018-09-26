@@ -14,10 +14,12 @@
         Margin="{StaticResource MediumLeftRightMargin}">
         <StackPanel>
             <TextBlock x:Uid="Help_string"/>
-            <HyperlinkButton Content="Privacy Policy" NavigateUri="http://ingyeoking13.tistory.com/"/>
+            <HyperlinkButton Content="Privacy Policy" NavigateUri="http://ingyeoking13.tistory.com/220?category=614185"/>
             <StackPanel Orientation="Horizontal">
                 <TextBlock x:Uid="Help_string2"/>
-                <Button x:Uid="Help_cpbutton" Margin="10, 0, 0, 0" x:Name="Help_cpbutton" Click="Help_cpbutton_Click" Style="{StaticResource myButton}"/>
+                <Button x:Uid="Help_cpbutton" Margin="10, 0, 0, 0" x:Name="Help_cpbutton"
+                        Click="Help_cpbutton_Click"
+                        Style="{StaticResource myButton}"/>
             </StackPanel>
 
         </StackPanel>

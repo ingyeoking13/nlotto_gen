@@ -1,7 +1,5 @@
 ﻿using System;
-
 using nlotto_gen.ViewModels;
-
 using Windows.UI.Xaml.Controls;
 
 namespace nlotto_gen.Views

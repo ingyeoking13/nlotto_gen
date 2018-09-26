@@ -1,10 +1,9 @@
-﻿using System;
+﻿using nlotto_gen.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.ApplicationModel.DataTransfer;
-using Windows.ApplicationModel.Email;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -22,21 +21,14 @@ namespace nlotto_gen.Views
     /// <summary>
     /// 자체적으로 사용하거나 프레임 내에서 탐색할 수 있는 빈 페이지입니다.
     /// </summary>
-    public sealed partial class HelpPage : Page
+    public sealed partial class dataPage : Page
     {
-        public HelpPage()
+        public DataPageViewModel ViewModel { get; set; } = new DataPageViewModel();
+        public dataPage()
         {
+            DataContext = ViewModel;
             this.InitializeComponent();
-
         }
 
-        private async void Help_cpbutton_Click(object sender, RoutedEventArgs e)
-        {
-
-            EmailMessage msg = new EmailMessage();
-            msg.To.Add(new EmailRecipient("gaelim@naver.com"));
-            await EmailManager.ShowComposeNewEmailAsync(msg);
-
-        }
     }
 }
