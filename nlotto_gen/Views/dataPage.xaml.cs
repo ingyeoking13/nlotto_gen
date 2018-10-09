@@ -29,6 +29,5 @@ namespace nlotto_gen.Views
             DataContext = ViewModel;
             this.InitializeComponent();
         }
-
     }
 }

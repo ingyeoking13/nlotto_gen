@@ -53,6 +53,7 @@ namespace nlotto_gen.ViewModels
             OnPropertyChanged("_display_games");
             static_Game.games = _display_games;
         }
+
         public RelayCommand game_create { get; set; }
     }
 }

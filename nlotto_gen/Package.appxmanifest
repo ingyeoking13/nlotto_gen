@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:genTemplate="http://schemas.microsoft.com/appx/developer/windowsTemplateStudio" IgnorableNamespaces="uap mp genTemplate">
-  <Identity Name="47757adkb.9875BA703BC7" Publisher="CN=795FB515-6046-4FB5-B517-5D21CD38CCB8" Version="1.1.2.0" />
+  <Identity Name="47757adkb.9875BA703BC7" Publisher="CN=795FB515-6046-4FB5-B517-5D21CD38CCB8" Version="1.1.6.0" />
   <mp:PhoneIdentity PhoneProductId="1dbf8cca-9217-4e6c-81a9-91609101c6b7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>로또 번호 추출기</DisplayName>

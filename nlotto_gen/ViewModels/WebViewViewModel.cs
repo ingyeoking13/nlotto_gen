@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Windows.Input;
-
 using nlotto_gen.Helpers;
-
 using Windows.UI.Xaml;
+using Windows.Web.UI;
 using Windows.UI.Xaml.Controls;
 
 namespace nlotto_gen.ViewModels

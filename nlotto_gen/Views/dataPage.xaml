@@ -1,33 +1,42 @@
-﻿<Page
-    x:Class="nlotto_gen.Views.dataPage"
+﻿<Page 
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:nlotto_gen.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Class="nlotto_gen.Views.dataPage"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
-            <TextBox x:Name="inputData" Text="{x:Bind ViewModel._name, Mode=TwoWay}"/>
-            <Button Content="insert" Command="{x:Bind ViewModel.Insert}"/>
-            <Button Content="get" Command="{x:Bind ViewModel.Query}"/>
-            <Button Content="drop" Command="{x:Bind ViewModel.Drop}"/>
+            <TextBox x:Name="inputData" Text="{x:Bind Mode=TwoWay, Path=ViewModel._name}"/>
+            <Button Content="insert" Command="{x:Bind Path=ViewModel.Insert}"/>
+            <Button Content="get" Command="{x:Bind Path=ViewModel.Query}"/>
+            <Button Content="drop" Command="{x:Bind Path=ViewModel.Drop}"/>
         </StackPanel>
         <Grid Grid.Row="1">
+
             <ListView
-                ItemsSource="{x:Bind ViewModel.query_ans}" >
+                ItemsSource="{x:Bind Path=ViewModel.query_ans}" >
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="x:String">
                         <TextBlock Text="{x:Bind}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
         </Grid>
+        <ScrollViewer Grid.Row="2">
+            <Grid >
+                <TextBlock x:Name="crawling" Text="{x:Bind Mode=OneWay, Path=ViewModel._crawl}"/>
+            </Grid>
+        </ScrollViewer>
     </Grid>
 </Page>
